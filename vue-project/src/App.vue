@@ -1,6 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import TheWelcome from './components/TheWelcome.vue';
+import TestTxt from './components/TestTxt.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="Vercel x Vue!" />
+      <TestTxt testTxt="This is test text." />
     </div>
   </header>
 
